@@ -1,0 +1,121 @@
+Welcome to calculator of sum
+Please enter an integer 
+The sum of integer= 98 The number of integer= 1
+Please enter an integer 
+The sum of integer= 141 The number of integer= 2
+Please enter an integer 
+The sum of integer= 239 The number of integer= 3
+Please enter an integer 
+The sum of integer= 260 The number of integer= 4
+Please enter an integer 
+The sum of integer= 285 The number of integer= 5
+Please enter an integer 
+The sum of integer= 293 The number of integer= 6
+Please enter an integer 
+The sum of integer= 311 The number of integer= 7
+Please enter an integer 
+The sum of integer= 356 The number of integer= 8
+Please enter an integer 
+The sum of integer= 370 The number of integer= 9
+Please enter an integer 
+The sum of integer= 456 The number of integer= 10
+Please enter an integer 
+The sum of integer= 514 The number of integer= 11
+Please enter an integer 
+The sum of integer= 580 The number of integer= 12
+Please enter an integer 
+The sum of integer= 633 The number of integer= 13
+Please enter an integer 
+The sum of integer= 666 The number of integer= 14
+Please enter an integer 
+The sum of integer= 710 The number of integer= 15
+Please enter an integer 
+The sum of integer= 726 The number of integer= 16
+Please enter an integer 
+The sum of integer= 784 The number of integer= 17
+Please enter an integer 
+The sum of integer= 830 The number of integer= 18
+Please enter an integer 
+The sum of integer= 903 The number of integer= 19
+Please enter an integer 
+The sum of integer= 911 The number of integer= 20
+Please enter an integer 
+The sum of integer= 978 The number of integer= 21
+Please enter an integer 
+The sum of integer= 1019 The number of integer= 22
+Please enter an integer 
+The sum of integer= 1085 The number of integer= 23
+Please enter an integer 
+The sum of integer= 1182 The number of integer= 24
+Please enter an integer 
+The sum of integer= 1253 The number of integer= 25
+Please enter an integer 
+The sum of integer= 1311 The number of integer= 26
+Please enter an integer 
+The sum of integer= 1357 The number of integer= 27
+Please enter an integer 
+The sum of integer= 1390 The number of integer= 28
+Please enter an integer 
+The sum of integer= 1479 The number of integer= 29
+Please enter an integer 
+The sum of integer= 1576 The number of integer= 30
+Please enter an integer 
+The sum of integer= 1630 The number of integer= 31
+Please enter an integer 
+The sum of integer= 1703 The number of integer= 32
+Please enter an integer 
+The sum of integer= 1727 The number of integer= 33
+Please enter an integer 
+The sum of integer= 1814 The number of integer= 34
+Please enter an integer 
+The sum of integer= 1834 The number of integer= 35
+Please enter an integer 
+The sum of integer= 1924 The number of integer= 36
+Please enter an integer 
+The sum of integer= 1988 The number of integer= 37
+Please enter an integer 
+The sum of integer= 2008 The number of integer= 38
+Please enter an integer 
+The sum of integer= 2053 The number of integer= 39
+Please enter an integer 
+The sum of integer= 2134 The number of integer= 40
+Please enter an integer 
+The sum of integer= 2201 The number of integer= 41
+Please enter an integer 
+The sum of integer= 2232 The number of integer= 42
+Please enter an integer 
+The sum of integer= 2289 The number of integer= 43
+Please enter an integer 
+The sum of integer= 2383 The number of integer= 44
+Please enter an integer 
+The sum of integer= 2431 The number of integer= 45
+Please enter an integer 
+The sum of integer= 2468 The number of integer= 46
+Please enter an integer 
+The sum of integer= 2561 The number of integer= 47
+Please enter an integer 
+The sum of integer= 2631 The number of integer= 48
+Please enter an integer 
+The sum of integer= 2643 The number of integer= 49
+Please enter an integer 
+The sum of integer= 2733 The number of integer= 50
+Please enter an integer 
+The sum of integer= 2810 The number of integer= 51
+Please enter an integer 
+The sum of integer= 2836 The number of integer= 52
+Please enter an integer 
+The sum of integer= 2859 The number of integer= 53
+Please enter an integer 
+The sum of integer= 2936 The number of integer= 54
+Please enter an integer 
+The sum of integer= 2938 The number of integer= 55
+Please enter an integer 
+The sum of integer= 2946 The number of integer= 56
+Please enter an integer 
+The sum of integer= 2982 The number of integer= 57
+Please enter an integer 
+The sum of integer= 3037 The number of integer= 58
+Please enter an integer 
+The sum of integer= 3129 The number of integer= 59
+Please enter an integer 
+The sum of integer= 3154 The number of integer= 60

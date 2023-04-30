@@ -1,0 +1,3 @@
+The maximum value is : 98
+The minimum value is : 2
+The average is : 53.732394366197184

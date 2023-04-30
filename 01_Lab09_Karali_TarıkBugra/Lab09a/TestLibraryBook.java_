@@ -1,0 +1,15 @@
+public class TestLibraryBook
+{
+  public static void main( String[] args)
+   {
+      LibraryBook x= new LibraryBook("o" , "mehmet" , "11,11,2000" ,20);
+      String b = x.toString();
+      String c = x.loanBook("11,12,2000");
+      String d = x.returnBook();
+      LibraryBook y= new LibraryBook("xyz" , "ali" , "11,10,2010" ,36);
+
+       System.out.println( y );
+   }
+ 
+
+}

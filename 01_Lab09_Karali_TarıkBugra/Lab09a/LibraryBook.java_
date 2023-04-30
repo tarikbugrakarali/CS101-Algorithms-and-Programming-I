@@ -1,0 +1,63 @@
+//in order to identify the qualities and get information about book 
+public class LibraryBook
+{
+   // properties
+   private String title;
+   private String  author;
+   private String dueDate;
+   private int timesLoaned;
+   
+   // constructors
+   public LibraryBook(String bookName , String writer , String date ,int loaned)
+   {
+      title = bookName;
+      author = writer;
+      dueDate = date;
+      timesLoaned = loaned;
+   }
+   
+   // methods
+   public String toString()
+   {
+      return "title: "+title +"  / author:  "+ author +"  /Due Date: "+ dueDate +"  / Times Loaned:  "+ timesLoaned+"  /On loan:  "+ onLoan()+ "  "+onLoann();
+   }
+   public  String loanBook(String actualDate)
+   {
+      dueDate = actualDate;
+      timesLoaned++;
+      return"title: "+title +"  / author:  "+ author +"  /Due Date: "+ actualDate +"  / Times Loaned:  "+ timesLoaned+"  /On loan:  "+ onLoan()+ "  "+onLoann();
+      
+   }
+   public String returnBook()
+   {
+      dueDate = " " ; 
+      return "title: "+title +"  / author:  "+ author +"  /Due Date: "+ dueDate +"  / Times Loaned:  "+ timesLoaned+"  /On loan:  "+ onLoan()+ "  "+onLoann();
+   }
+   
+   public boolean onLoan()
+   {
+      if (dueDate.equals(" "))
+      {
+         return true; 
+      }
+      else
+      {
+         return false;
+      }
+   }
+   public String onLoann()
+   {
+      if (dueDate.equals(" "))
+      {
+         return "It is available"; 
+      }
+      else
+      {
+         return " It is not available";
+      }
+   }
+   public int getTimesLoaned()
+   {
+      return timesLoaned;
+   }
+}

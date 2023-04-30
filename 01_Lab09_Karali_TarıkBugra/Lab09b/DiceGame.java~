@@ -1,0 +1,20 @@
+public class DiceGame
+{
+   public int dice;
+   
+   public int play()
+   {
+      int i = 0;
+      do 
+      {
+         Dice dice = new Dice();
+         dice = Dice.roll();
+         i++;  
+      }
+      while(dice != 12);
+      return i;
+   }
+
+  
+   
+}

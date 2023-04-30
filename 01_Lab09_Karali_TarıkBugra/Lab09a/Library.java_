@@ -1,0 +1,91 @@
+public class Library
+{
+   private LibraryBook b1 ;
+   LibraryBook b2 ;
+   LibraryBook b3 ;
+   LibraryBook b4 ;
+   //constructer
+   public Library()
+   {
+      b1 = null;
+      b2 = null;
+      b3 = null;
+      b4 = null;
+   }
+   //methods
+   public Boolean isEmpty()
+   {
+      if (b1 == null && b2 == null && b3 == null && b4 == null )
+      {
+         return true;
+      }
+      else
+      {
+         return false;
+      }
+   }
+   
+   public String toString()
+   {
+      return "a";
+   }
+   
+   public LibraryBook add(String a,String b)
+   {
+      if (b1 == null)
+      {
+         b1 = new LibraryBook(a,b,null,0);
+         return b1;
+      }
+      else if (b2 == null)
+      {
+         b2 = new LibraryBook(a,b,null,0);
+         return b2;
+      }
+      else if (b3 == null)
+      {
+         b3 = new LibraryBook(a,b,null,0);
+         return b3;
+      }
+      else 
+      {
+         b4 = new LibraryBook(a,b,null,0);
+         return b4;
+      }
+   }
+   
+   public LibraryBook remove(LibraryBook a)
+   {
+      a = new LibraryBook(null,null,null,0);
+      return a;
+   }
+   
+   public LibraryBook findByTitle(String a)
+   {
+      if (b1.theTitle(a))
+      {
+         return b1;
+      }
+      else 
+      {
+         return null;
+      }
+      
+   }
+   
+   public static void main( String[] args)
+   {
+
+
+      // constants
+
+      // variables
+
+      // program code
+      System.out.println( "Start...");
+
+
+      System.out.println( "End.");
+   }
+
+}

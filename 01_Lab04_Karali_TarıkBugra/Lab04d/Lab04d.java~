@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+/**
+ * __in order to create an triangle with given character___ 
+ * @author __tarik bugra___
+ * @version __30.10.2019__
+ */ 
+public class Lab04d
+{
+   public static void main( String[] args)
+   {     
+     System.out.println( "Welcome to triangle show"); 
+     Scanner scan = new Scanner( System.in);
+     System.out.println( "Please enter an character ");
+     String a = scan.next();
+     System.out.println( "Please enter an integer ");
+     int b = scan.nextInt();
+     int m = 0 ;
+     while ( m < b )
+     {
+        m ++;
+        int k = 0;
+        while ( k < m )
+        {
+           k ++;
+           System.out.print(a+" ");
+        }
+        System.out.println();
+        
+        
+     }
+   }
+}   

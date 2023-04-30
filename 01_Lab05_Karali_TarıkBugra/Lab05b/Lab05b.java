@@ -1,0 +1,85 @@
+import java.util.Scanner;
+
+/**
+ * __in order to create an chart table with given numbers___ 
+ * @author __tarik bugra___
+ * @version __04.11,2019__
+ */ 
+public class Lab05b
+{
+   public static void main( String[] args)
+   {     
+      System.out.println( "row column chart"); 
+      Scanner scan = new Scanner( System.in);
+      System.out.println( "Please enter row: ");
+      double row = scan.nextDouble();
+      System.out.println( "Please enter column: ");
+      double column = scan.nextDouble();
+      int a;
+      int b;
+      a = (int)row;
+      b = (int)column;
+      if (a>0 && b>0 && a == row && b == column )
+      {
+         for (int m = 1; m <= a ; m++)
+         {
+            for (int n =1; n <= b ; n++)           
+            {
+               System.out.print(m+","+n);
+               String x = new String (m+","+n);
+               int character = x.length();
+               for(int k = 0; k < 7 - character; k++  )
+               {
+                  System.out.print(" ");
+               }   
+            }
+            System.out.println();
+         }
+         for (int m = 1; m <= a ; m++)
+         {
+            for (int n =1; n <= b ; n++)           
+            {
+               System.out.print(m * n);
+               int x = m * n;
+               String s = x + "";
+               int character = s.length();
+               for(int k = 0; k < 7 - character; k++  )
+               {
+                  System.out.print(" ");
+               }   
+            }
+            System.out.println();
+         }
+         for (int m = 1; m <= a ; m++)
+         {
+            for (int n =0; n <= b-1  ; n++)           
+            {
+               System.out.print(n + b *(m - 1));
+               String s = n + b *(m - 1) + "";
+               int character = s.length();
+               for(int k = 0; k < 7 - character; k++  )
+               {
+                  System.out.print(" ");
+               }   
+            }
+            System.out.println();
+         } 
+         for (int m = 1; m <= a ; m++)
+         {
+            System.out.print(m); 
+            
+            String x = m + "";
+            int character = x.length();
+            for(int k = 0; k < b - character; k++  )
+            {
+               System.out.print("-");
+            }   
+            System.out.println();
+         }
+      }
+      else
+      {
+         System.out.println("Please write valid values");  
+      }
+   }
+}   

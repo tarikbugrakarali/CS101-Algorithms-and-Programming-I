@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+/**
+ * __in order to create an rectangle with given character___ 
+ * @author __tarik bugra___
+ * @version __05.11.2019__
+ */ 
+public class Lab05c
+{
+   public static void main( String[] args)
+   {     
+      System.out.println( "Welcome to Calculator");
+      double result = 0.0 ;
+      for(int t = 0 ; t > -1 ; t ++ )
+      {
+         System.out.println( "Operations : +,-,*,/"+"Clear"+"Quit");
+         
+      }
+   }
+}   

@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+
+ */ 
+public class lab02e class
+{
+   public static void main( String[] args)
+   {
+      Scanner scan = new Scanner( System.in);
+      
+      // constants
+
+      // variables
+      String name;
+       name = scan.nextLýne();
+
+      // program code
+      System.out.println( "Start...");
+
+
+      System.out.println( "End.");
+   }
+
+}
+ System.out.println( "<!DOCTYPE html>")
+
+System.out.println( "<html>")
+
+System.out.println( "<head>")
+System.out.println( "<title>Tarýk's Home Page</title>")
+System.out.println( "</head>")
+
+System.out.println( "<body>")
+
+System.out.println( "<hr>")
+   
+System.out.println( "<h1> "+name+" </h1>")
+System.out.println( "<p>Age: 18</p>")
+System.out.println( "<p>Salary: 1000.0</p>")
+System.out.println( "<p>Comments: Smart girl!</p>")
+System.out.println( "<hr>")
+
+System.out.println( "</body>")
+
+</html>

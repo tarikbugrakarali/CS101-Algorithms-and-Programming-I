@@ -1,0 +1,83 @@
+import java.util.Scanner;
+
+/**
+ * __in order to create an calculator___ 
+ * @author __tarik bugra___
+ * @version __05.11.2019__
+ */ 
+public class LibraryTest
+{
+   public static void main( String[] args)
+   {     
+      System.out.println( "Welcome to Library");
+      System.out.println();
+      for(int t = 0 ; t > -1 ; t ++ )
+      {
+         System.out.println( "Show");
+         System.out.println( "Find");
+         System.out.println( "Add");
+          System.out.println( "Exit");
+         System.out.println( "------------------------"); 
+         Scanner scan = new Scanner( System.in);
+         System.out.println( "Please choose operation: ");
+         String y = scan.next();
+         String s1 = new String("Show");
+         String s2 = new String("Find");
+         String s3 = new String("Add");
+         String s4 = new String("Exit");
+         
+         if (s1.equals(y))
+         {
+            
+         }
+         else if (s5.equals(y)|| s6.equals(y))
+         {
+            System.out.println("GOOD BYE !!");
+            break;
+         }
+         else if (s1.equals(y))
+         {
+           System.out.println( "Please enter a number: ");
+           Double z = scan.nextDouble();
+           result = result + z ;
+           System.out.println("----------------------------------");
+           System.out.println("[ "+result+" ]");
+           System.out.println("----------------------------------");
+         }
+         else if (s2.equals(y))
+         {
+           System.out.println( "Please enter a number: ");
+           Double z = scan.nextDouble();
+           result = result - z ;
+           System.out.println("----------------------------------");
+           System.out.println("[ "+result+" ]");
+           System.out.println("----------------------------------");
+         }
+         else if (s3.equals(y))
+         {
+           System.out.println( "Please enter a number: ");
+           Double z = scan.nextDouble();
+           result = result * z ;
+           System.out.println("----------------------------------");
+           System.out.println("[ "+result+" ]");
+           System.out.println("----------------------------------");
+         }
+         else if (s4.equals(y))
+         {
+           System.out.println( "Please enter a number: ");
+           Double z = scan.nextDouble();
+           result = result + z ;
+           System.out.println("----------------------------------");
+           System.out.println("[ "+result+" ]");
+           System.out.println("----------------------------------");
+         }
+         else 
+         {
+            System.out.println("ERROR : Your opration is invalid");
+         }
+         
+
+         
+      }
+   }
+}   
